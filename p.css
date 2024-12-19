@@ -1,0 +1,1480 @@
+* {
+    box-sizing: border-box;
+}
+
+/* --------------------header starts here------------------ */
+body {
+    width: 100%;
+}
+
+.header1 {
+    background-color: #29ca8e;
+    /* border: 1px solid blue;
+     */
+    top: 0px;
+    height: 5px;
+    /* position: sticky;
+    top: 0px; */
+}
+
+.hamburger {
+    display: none;
+    font-size: 30px;
+}
+
+.div1 {
+    display: flex;
+    height: 55px;
+    /* border: 5px solid black; */
+    justify-content: space-around;
+    /* position: sticky; */
+    width: 100%;
+    top: 0px;
+    background-color: white;
+
+}
+
+.ul1 {
+    display: flex;
+    list-style-type: none;
+    font-size: 14px;
+    font-family: sans-serif;
+    margin-top: -2px;
+    /* justify-items: center; */
+}
+
+.div2 {
+    margin: 0px 0px 0px -15px;
+    font-size: 18px;
+    /* font-weight: bold; */
+    color: #454545;
+    font-family: sans-serif;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.div3 {
+    /* margin-top: 18px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.listitem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.listitem:hover {
+    background-color: #29ca8e;
+    color: white;
+}
+
+.ha1 {
+    color: gray;
+    text-decoration: none;
+    padding: 5px 5px;
+    /* background-color: #29ca8e; */
+}
+
+.item .ha1:hover {
+    color: white;
+    /* background-color: #29ca8e; */
+}
+
+.div3:hover {
+    background-color: #29ca8e;
+    color: white;
+}
+
+.div3 .ha1:hover {
+    color: white;
+    background-color: #29ca8e;
+}
+
+.h1 {
+    font-size: 3em;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.button1 {
+    border-radius: 30px;
+    background-color: transparent;
+    margin-bottom: 300px;
+    margin-right: 500px;
+}
+
+.button1:hover {
+    background-color: white;
+    color: gray;
+}
+
+.h1 {
+    margin-right: 450px;
+}
+
+.h5 {
+    font-size: 16px;
+    font-weight: 300;
+    width: 700px;
+    margin-right: 480px;
+    margin-bottom: 50px;
+}
+
+.h12 {
+    margin-right: 350px;
+    width: 700px;
+}
+
+.h51 {
+    font-size: 16px;
+    font-weight: 300;
+    width: 700px;
+    margin-right: 480px;
+    margin-bottom: 50px;
+}
+
+.h13 {
+    margin-right: 350px;
+    width: 700px;
+}
+
+.div4 {
+    display: flex;
+    /* grid-template-columns: auto auto auto; */
+    margin-top: 100px;
+    justify-content: space-around;
+}
+
+.div5 {
+    width: 300px;
+}
+
+.div6 {
+    width: 300px;
+}
+
+.div7 {
+    width: 300px;
+}
+
+.span1 {
+    background-color: #3f51b5;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px 10px;
+    border-radius: 50px;
+    margin-bottom: 5px;
+}
+
+.h31 {
+    padding-top: 20px;
+}
+
+.div9 {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    padding-top: 20px;
+}
+
+.div01 {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    padding-top: 20px;
+}
+
+.div02 {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    padding-top: 20px;
+}
+
+/* .box {
+    background-color: black;
+    color: gray;
+    margin-left: 150px;
+    /* padding: 150px 190px; */
+/* border-radius: 50%; */
+/* width: 450px; */
+/* height: 450px; */
+/* grid-template-columns: auto; */
+/* } */
+/* .sign1{
+    padding-left: 140px;
+    padding-top: 50px;
+    color: white;
+    width: 150px;
+} */
+
+#maindiv1 {
+    display: flex;
+    margin-top: 100px;
+}
+
+.div8 {
+    margin-left: 30px;
+}
+
+.a1:hover {
+    background-color: #3f51b5;
+    color: white;
+}
+
+.a1 {
+    text-decoration: none;
+    color: black;
+    padding: 13px;
+    /* border: 1px solid gray; */
+    background-color: white;
+    margin-top: 30px;
+    border-radius: 50px;
+}
+
+.div03 {
+    background-color: black;
+    /* Set background color to black */
+    width: 450px;
+    /* Set width */
+    height: 450px;
+    /* Set height */
+    border-radius: 50%;
+    /* Make the div circular */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-left: 160px;
+}
+
+.div03 h3 {
+    color: white;
+    /* Set heading text color to white */
+    /* padding: 5px; */
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.div03 input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+.div03 input:focus {
+    outline: none
+}
+
+.div03 a.a1 {
+    text-decoration: none;
+    /* Remove underline from the link */
+    font-size: 1.2rem;
+    padding: 10px 10px;
+    background-color: white;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 30px;
+    /* display: flex; */
+    /* justify-content: center; */
+}
+
+.div03 a.a1:hover {
+    background-color: #29ca8e;
+    /* Change background on hover */
+    color: white;
+
+    /* Change text color on hover */
+}
+
+/* .focus1 {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: gray;
+    padding-top:50px;
+    padding-left: 90px; */
+/* border: solid 5px royalblue; */
+/* padding-bottom: 5px; */
+/* } */
+
+.div04 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ul2 {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    padding-top: 60px;
+}
+
+.div05 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.ul3 {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    /* border: 2px solid black; */
+}
+
+/* .ul3 li {
+/* } */
+*/ 
+.ul4 {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+/* .img3 {
+    width: 50px !important;
+    height: 50px !important;
+} */
+
+.divm1 {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 70px;
+    /* text-align: center; */
+}
+
+.span2 {
+    font-size: large;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.span3 {
+    background-color: #29ca8e;
+    padding: 10px 10px;
+    color: white;
+    margin-left: 40px;
+}
+
+.h32 {
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+.h32:hover {
+    color: #29ca8e;
+}
+
+.h33 {
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+.h33:hover {
+    color: #29ca8e;
+}
+
+.h34 {
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+.h34:hover {
+    color: #29ca8e;
+}
+
+.h35 {
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+.h35:hover {
+    color: #29ca8e;
+}
+
+.h36 {
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+.h36:hover {
+    color: #29ca8e;
+}
+
+.h37 {
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+.h37:hover {
+    color: #29ca8e;
+}
+
+/* h37 are complted upto here */
+/* h37 are complted upto here */
+.ul3 {
+    margin-top: 50px;
+}
+
+.div07 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.ul5 {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+
+}
+
+.ul5 li {
+    /* border: 2px solid black; */
+    width: 350px;
+    height: 350px;
+}
+
+/* .li1{
+    
+} */
+.div08 {
+    padding-left: 20px;
+    /* border: 1px solid green; */
+}
+
+.div09 {
+    margin-top: 15px;
+    width: 250px;
+}
+
+.div10 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    /* border: 1px solid brown; */
+}
+
+.div11 {
+    display: flex;
+}
+
+.div12 {
+    margin-top: 20px;
+}
+
+.ul6 {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+#div13 {
+    background-color: #3f51b5;
+    display: flex;
+    height: 775px;
+    /* width: 500px; */
+}
+
+.div14 {
+    color: white;
+    margin-top: 170px;
+    margin-left: 100px;
+}
+
+.div15 {
+    display: flex;
+
+}
+
+.div16 {
+    margin-top: 150px;
+    margin-left: 100px;
+}
+
+.a01 {
+    padding: 15px 15px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border-radius: 50px;
+}
+
+.a01:hover {
+    background-color: #3f51b5;
+    color: white;
+    /* border: 1px solid white; */
+}
+
+.focussing:focus {
+    outline: none;
+}
+
+.div18 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    padding-top: 150px;
+}
+
+.ul17 {
+    list-style-type: none;
+}
+
+.ul18 {
+    list-style-type: none;
+    padding-left: 150px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+
+.ul19 {
+    list-style-type: none;
+    padding-left: 200px;
+}
+
+.div19 {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    height: 460px;
+}
+
+.h41 {
+    color: white;
+}
+
+.h42 {
+    color: white;
+}
+
+.h43 {
+    color: white;
+}
+
+.h44 {
+    color: white;
+}
+
+.p1 {
+    color: gray;
+}
+
+.font1 {
+    color: #29ca8e;
+}
+
+.small1 {
+    color: gray;
+    padding-top: 10px;
+}
+
+.small2 {
+    color: gray;
+    margin-top: 10px;
+}
+
+.li5 {
+    color: gray;
+}
+
+.a02 {
+    text-decoration: none;
+    color: gray;
+}
+
+.a03 {
+    text-decoration: none;
+    color: gray;
+}
+
+.a04 {
+    text-decoration: none;
+    color: gray;
+}
+
+.a05 {
+    text-decoration: none;
+    color: white;
+    padding: 15px 35px;
+    border-radius: 50px;
+    /* border: 1px solid white; */
+}
+
+.a05:hover {
+    background-color: #29ca8e;
+    color: white;
+    /* border: 1px solid white; */
+}
+
+.small3 {
+    color: gray;
+}
+
+.div20 {
+    display: grid;
+}
+
+.maindiv2 {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+body {
+    width: 100%;
+}
+
+#input1 {
+    width: 500px;
+    height: 200px;
+    border-radius: 5px;
+    padding-top: 0px;
+    outline: none;
+}
+
+/* .div21{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+} */
+hr {
+    color: gray;
+}
+
+/* <-----------------------------------------------Media quirires started----------------------------------------------------------------------> */
+@media screen and (max-width:578px) {
+    body {
+        width: 100%;
+    }
+
+    .div1 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 50px;
+    }
+
+    .ul1 {
+        display: none;
+    }
+
+    .div3 {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+        width: auto;
+        font-size: 30px;
+    }
+
+    .hamburger:hover .listitems {
+        display: block;
+        width: auto;
+    }
+    #num{
+        margin-left: -30px;
+        /* border: 2px solid red; */
+        margin-right: -100px;
+
+    }
+
+    .navitems {
+        background-color: white;
+        z-index: 5px;
+        position: absolute;
+        /* margin-top: 50px; */
+        /* top: 0px; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 18px;
+        width: 100%;
+        left: 0px;
+    }
+    /* .div3 {
+        background-color: white;
+        display: block;
+        z-index: 5px;
+        position: absolute;
+        /* margin-top: 50px; */
+        /* top: 0px; */
+        /* display: flex; */
+        /* flex-direction: column; */
+        /* align-items: center; */
+        /* justify-content: center; */
+        /* font-size: 18px; */
+        /* width: 100%; */
+        /* left: 0px; */
+    /* } */ */
+
+    .listitems {
+        list-style-type: none;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin-left: 0px;
+    }
+
+    /* .div3{
+        display: block;
+    } */
+    .listitems {
+        display: none;
+    }
+
+    /* <-----------------------------completed to header part-----------------------------> */
+    .class {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        width: 100%;
+        /* border: 5px solid black; */
+    }
+
+    .h1 {
+        /* font-size: 40px !important; */
+        /* position: absolute; */
+        margin-top: 500px;
+        font-size: 35px;
+        color: red;
+        border: 2px solid black;
+        z-index: 30 !important;
+    }
+
+    .h5 {
+        font-size: 20px;
+    }
+
+    /* <---------------------------------caroulsals completed--------------------------------> */
+    .div4 {
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 50px;
+        width: 100%;
+        left: 20%;
+    }
+
+    /* <---------------------------------Trending courses completed--------------------------> */
+    .maindiv2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .div8 {
+        display: grid;
+        grid-template-columns: auto;
+        /* width: 100%; */
+    }
+
+    .div03 {
+        height: 300px;
+        width: 350px;
+        border-radius: 20%;
+        left: 0px;
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+
+    /* <----------------------------------Teachers started------------------------------------------------------> */
+    .ul2 {
+        display: grid;
+        grid-template-columns: auto;
+        align-items: center;
+    }
+
+    .div04 {
+        display: grid;
+        grid-template-columns: auto;
+        text-align: center;
+    }
+
+    #teachers {
+        width: 100%;
+    }
+
+    /* <---------------------------------Popular courses started------------------------------------------------------------------------------> */
+    #popular {
+        width: 100%;
+    }
+
+    .div05 {
+        display: grid;
+        grid-template-columns: auto;
+        text-align: center;
+    }
+
+    .ul3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ul4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* <----------------------------------Student review started---------------------------------------------------------------------------------------------> */
+    #reviews {
+        width: 100%;
+    }
+
+    .div07 {
+        display: grid;
+        text-align: center;
+        grid-template-columns: auto;
+    }
+
+    .ul5 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ul6 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* <----------------------------------Contact us----------------------------------------------------------------------------------------------------------------------------------> */
+    .div13 {
+        height: auto;
+        background-color: #3f51b5;
+        width: 100%;
+    }
+
+    .div14 h2 p {
+        display: grid;
+        grid-template-columns: auto;
+        /* text-align: center; */
+
+    }
+
+    .div15 {
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto;
+        left: 0px;
+        height: 900px;
+    }
+
+    .div16 img {
+        width: 300px;
+        height: 200px;
+        /* border: 2px solid black; */
+        border-radius: 5px;
+    }
+
+    .div16 {
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-bottom: 90px;
+    }
+
+    .form {
+        width: 200px;
+        /* left: 0px; */
+        margin-left: 10px;
+        top: 0px;
+    }
+
+    .focussing {
+        width: 100%;
+    }
+
+    .div17 input {
+        width: 250px !important;
+    }
+
+    #input1 {
+        height: 130px;
+        width: 250px;
+    }
+
+    .div14 {
+        top: 0px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+    .div15 {
+        margin-top: 0px;
+    }
+
+    .a01 {
+        padding: 10px 10px;
+        margin-top: 0px !important;
+    }
+
+    /* <-------------------------------------------------Footer started---------------------------------------------------------------------> */
+    .div19 {
+        width: 100%;
+        height: 800px;
+
+    }
+
+    .div18 {
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto;
+        height: 700px;
+        margin-top: 0px;
+    }
+
+    .ul17 {
+        width: 320px;
+        height: auto;
+        padding-top: 0px;
+    }
+
+    .ul18 {
+        height: auto;
+        padding-top: 0px;
+        padding-left: 30px;
+    }
+
+    .ul19 {
+        height: auto;
+        padding-top: 0px;
+        margin-bottom: 100px;
+        padding-left: 30px;
+    }
+
+    .small3 {
+        margin-top: 0px;
+        padding-left: 10px;
+    }
+
+    /* <-------------------------------------Media quiries completed for small devices ---------------------------------------------------------> */
+}
+
+@media screen and (min-width:579px) and (max-width:768px) {
+    body {
+        width: 100%;
+    }
+
+    .div1 {
+        display: flex;
+        /* justify-content: center; */
+        justify-content: space-around;
+        /* align-items: center; */
+        margin: 5px 0px 0px 5px;
+    }
+
+    .div2 {
+        /* margin-left: 2px; */
+        /* padding-left: 20px; */
+        left: 10px;
+    }
+
+    /* <----------------------------------header part completed------------------------------------------------------------------------------------------------------> */
+    .class {
+        width: 100%;
+        /* display: none; */
+    }
+
+    .h1 {
+        font-size: 42px;
+        font-weight: bold;
+        margin-bottom: -100px;
+        /* width: 400px; */
+        width: 100%;
+    }
+
+    .h5 {
+        margin-top: 150px;
+        /* border: 2px solid blue; */
+        width: 100%;
+    }
+
+    .h12 {
+        /* font-size: 42px;
+        font-weight: bold; */
+        /* margin-bottom: -100px; */
+        /* width: 400px; */
+        width: 100%;
+    }
+
+    .h51 {
+        width: 100%;
+    }
+
+    .h13 {
+        width: 100%;
+    }
+
+    .h52 {
+        width: 100%;
+        font-size: 18px;
+        font-weight: lighter;
+    }
+
+    .button1 {
+        margin-bottom: 10px;
+    }
+
+    /* <--------------------------------------------Carousals completed ---------------------------------------------------------------------------------------------------> */
+    .div4 {
+        /* display: flex; */
+        /* align-items: center; */
+        /* justify-content: space-around; */
+        width: 100%;
+    }
+
+    .div5 {
+        width: 130px;
+    }
+
+    .div6 {
+        width: 130px;
+    }
+
+    .div6,
+    p {
+        width: 100px;
+        /* border: 2px solid black; */
+    }
+
+    .div7 {
+        width: 150px;
+    }
+
+    .div7,
+    p {
+        width: 140px;
+    }
+
+    /* <-----------------------------------------Trending courses completed -------------------------------------------------------------> */
+    .maindiv2 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .div8 h2 {
+        display: grid;
+        grid-template-columns: auto;
+        /* border: 2px solid black; */
+        width: 100%;
+    }
+
+    .side {
+        margin-left: 20px;
+    }
+
+    .div9 {
+        display: flex;
+        align-items: center;
+    }
+
+    .div9 h3 {
+        display: flex;
+        align-items: center;
+    }
+
+    .side p {
+        width: 550px;
+        /* border: 2px solid black; */
+    }
+
+    .side2 {
+        margin-left: 20px;
+    }
+
+    .side2 h3 {
+        display: flex;
+        align-items: center;
+    }
+
+    .side2 p {
+        width: 550px;
+        /* border: 2px solid black; */
+    }
+
+    .side3 {
+        /* border: 2px solid blue; */
+        margin-left: 20px;
+    }
+
+    .side3 h3 {
+        display: flex;
+        align-items: center;
+    }
+
+    .side3 p {
+        width: 550px;
+        /* border: 2px solid black; */
+    }
+
+    .div03 {
+        margin-left: 40px;
+        width: 450px;
+    }
+
+    /* <----------------------------------------------- Teachers completed --------------------------------------------------------> */
+    #teachers {
+        width: 100%;
+    }
+
+    .div04 {
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto;
+        text-align: center;
+    }
+
+    .ul2 {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .ul2 li p {
+        width: 200px;
+    }
+
+    /* <-------------------------------------------------------------------------------Popular courses started----------------------------------------------------------------------------------------------------------------------> */
+    #popular {
+        width: 100%;
+    }
+
+    .div05 {
+        display: grid;
+        grid-template-columns: auto;
+        text-align: center;
+    }
+
+    .div05 h3 {
+        display: grid;
+        grid-template-columns: auto;
+        text-align: center;
+    }
+
+    .div05 p {
+        width: 400px;
+        margin-left: 200px;
+        /* border: 2px solid black; */
+    }
+
+    .ul3 {
+        display: grid;
+    }
+
+    .ul3 img {
+        width: 736px;
+        height: 375px;
+    }
+
+    .divm1 img {
+        width: 50px !important;
+        height: 50px !important;
+    }
+
+    .ul4 {
+        display: grid;
+        list-style-type: none;
+    }
+
+    .ul3 h3 {
+        /* border: 2px solid black; */
+        margin-left: 20px;
+    }
+
+    .ul3 p {
+        width: 500px;
+        margin-left: 20px;
+    }
+
+    .span3 {
+        margin-left: 430px;
+        /* border: 2px solid black; */
+    }
+
+    .ul4 h3 {
+        /* border: 2px solid black; */
+        margin-left: 20px;
+    }
+
+    .ul4 p {
+        width: 500px;
+        margin-left: 20px;
+    }
+
+    /* <------------------------------------------------------------------- Student revirews started --------------------------------------------------------------------------> */
+    #reviews {
+        width: 100%;
+    }
+
+    .ul5 {
+        display: grid;
+        /* grid-template-columns: auto; */
+        /* margin-left: -90px; */
+    }
+
+    .li1 {
+        margin-left: -120px;
+    }
+
+    .div09 p {
+        width: 600px;
+    }
+
+    .li6 {
+        margin-left: -120px;
+    }
+
+    .li7 {
+        margin-left: -120px;
+    }
+
+    .ul6 {
+        display: grid;
+        /* grid-template-columns: auto; */
+        /* margin-left: -90px; */
+        grid-gap: 10px;
+        height: 1059px;
+    }
+
+    .li8 {
+        margin-left: -210px;
+        border: 2px solid black;
+    }
+
+    .li9 {
+        margin-left: -210px;
+    }
+
+    .li10 {
+        margin-left: -210px;
+    }
+
+    /* <--------------------------------------------------- Contact us ------------------------------------------------------------------------------------------------> */
+    #div13 {
+        width: 100%;
+    }
+
+    .div15 {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .div14 {
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    .div14 p {
+        display: flex;
+        flex-direction: column;
+        /* text-align: center; */
+        width: 400px;
+    }
+
+    .div14 h2 {
+        width: 400px;
+    }
+
+    .div14 {
+        margin-top: 100px;
+    }
+
+    .div17 input {
+        width: 650px !important;
+        height: 50px !important;
+    }
+
+    #input1 {
+        width: 650px !important;
+        height: 132px !important;
+    }
+
+    .a01 {
+        border-radius: 30px;
+        /* margin-left: 250px; */
+        padding-left: 270px;
+        padding-right: 270px;
+        /* border: 5px solid black; */
+    }
+
+    #div13 {
+        height: 1242px;
+    }
+
+    .div16 img {
+        width: 650px;
+        height: 600px;
+        margin-left: -80px;
+        margin-top: -100px;
+        /* border: 2px solid black; */
+        border-radius: 5px;
+    }
+
+    /* <---------------------------------------------- Footer started --------------------------------------------------------------------------> */
+    .div19 {
+        width: 100%;
+        height: 645px;
+    }
+
+    .div18 {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .ul17 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .p1 {
+        width: 320px;
+    }
+
+    .ul18 {
+        margin-left: -150px;
+    }
+
+    .ul19 {
+        /* border: 2px solid white; */
+        margin-left: -170px;
+    }
+
+    .ul19 li input {
+        width: 500px;
+        height: 50px;
+        border-radius: 10px;
+        background-color: black;
+        outline: none;
+    }
+
+    .ul19 li a {
+        padding-left: 105px;
+        padding-right: 105px;
+    }
+
+    /* <------------------------------------------------------------ Media quiries completed for medium devices -----------------------------------------------------------------------> */
+}
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+    body {
+        width: 100%;
+    }
+
+    .div1 {
+        width: 100%;
+    }
+
+    /* <--------------------------------------------------------------header part completed-----------------------------------------------------------------------------------------------> */
+    .class {
+        width: 100%;
+    }
+
+    .h1 {
+        font-size: 42px;
+        font-weight: bold;
+        margin-bottom: -100px;
+        width: 100%;
+    }
+
+    .h5 {
+        margin-top: 150px;
+        /* border: 2px solid blue; */
+        width: 100%;
+    }
+    .button1 {
+        margin-bottom: 10px;
+    }
+    /* <------------------------------------------------------------Carousal completed--------------------------------------------------------------------------> */
+    .div4{
+        width: 100%;
+    }
+    /* <------------------------------------------------------------Trending courses completed----------------------------------------------------------------------------------------------> */
+    #maindiv1{
+        width: 100%;
+    }
+    .div8{
+        width: 100%;
+    }
+    .div03{
+        width: 600px;
+        height: 400px;
+    }
+  /* <--------------------------------------------------------------- Teachers completed ----------------------------------------------------------------------------------------------------------------------------> */
+    #teachers{
+        width: 100%;
+    }
+    .ul2{
+        display: flex;
+        width: 100%;
+    }
+    .ul2 img{
+        width: 220px;
+        border: 2px solid red;
+    }
+    /* <-------------------------------------------------------------- Popular courses started -------------------------------------------------------------------------------------------------------------------------------------------------> */
+    /* <----------Trails---------------> */
+/* <--------------------------------------------------------------- Reviews started ------------------------------------------------------------------------------------------------------------------------> */
+#popular{
+    width: 100%;
+}
+#reviews{
+    width: 100%;
+}
+/* <---------------------------------------------------------------- Contact us started ------------------------------------------------------------------------------------------------------------------> */
+#div13{
+    width: 100%;
+}
+.div14{
+    margin-left: 20px;
+}
+.div16{
+    margin-left: 20px;
+}
+.div16 img{
+    border-radius: 5px;
+}
+/* <----------------------------------------------------------------- Footer started ---------------------------------------------------------------------------------------------------------------------------> */
+.div19{
+    width: 100%;
+}
+.p1{
+    width: 300px;
+}
+    
+}
+
+
+

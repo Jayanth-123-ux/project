@@ -1,0 +1,113 @@
+/* Base styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    margin: 0 15px;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  /* Hamburger icon */
+  .menu-toggle {
+    display: none;
+    cursor: pointer;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .menu-toggle .bar {
+    width: 30px;
+    height: 4px;
+    background-color: white;
+    border-radius: 10px;
+  }
+  
+  /* Mobile view */
+  @media screen and (max-width: 768px) {
+    .nav-links {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      background-color: #333;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+  
+    .nav-links.active {
+      display: flex;
+    }
+  
+    .menu-toggle {
+      display: flex;
+    }
+  }
+  /*  */
+
+
+  <ul class="ul4"><br><br>
+  <li><img src="./courses-image3.jpg" class="d-block w-100" alt="..." width="370px"
+          height="253.33px">
+      <a href="" style="text-decoration: none; color: black;">
+          <h3 class="h35">Marketing Communication </h3>
+      </a>
+      <p style="padding-left: 10px;">Lorem ipsum dolor sit amet consectetur<br>adipisicing
+          elit.</p>
+      <div class="divm1">
+          <img src="./author-image1 (1).jpg" alt="" width="50px" height="50px"
+              class="img3"><span class="span2">Mark Wilson</span><span class="span3">USD
+              45</span>
+      </div>
+  </li>
+  <li><img src="./courses-image4.jpg" class="d-block w-100" alt="..." width="370px"
+          height="253.33px">
+      <a href="" style="text-decoration: none; color: black;">
+          <h3 class="h36">Summer Kids </h3>
+      </a>
+      <p style="padding-left: 10px;">Lorem ipsum dolor sit amet consectetur<br>adipisicing
+          elit.</p>
+      <div class="divm1">
+          <img src="./author-image2 (1).jpg" alt="" width="50px" height="50px"><span
+              class="span2">Jessica</span><span class="span3">USD
+              45</span>
+      </div>
+  </li>
+
+  <li><img src="./courses-image5.jpg" class="d-block w-100" alt="..." width="370px"
+          height="253.33px">
+      <a href="" style="text-decoration: none; color: black;">
+          <h3 class="h37">Bussiness & Management </h3>
+      </a>
+      <p style="padding-left: 10px;">Lorem ipsum dolor sit amet consectetur<br>adipisicing
+          elit.</p>
+      <div class="divm1">
+          <img src="./author-image3 (1).jpg" alt="" width="50px" height="50px"><span
+              class="span2">Catherine</span><span class="span3">USD
+              45</span>
+      </div>
+  </li>
+</ul>
